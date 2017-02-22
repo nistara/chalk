@@ -84,3 +84,25 @@ MIT License
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+
+#### For Markdown: ####
+
+From [Gaston's site](http://gastonsanchez.com/visually-enforced/opinion/2014/02/16/Mathjax-with-jekyll/)
+Insert the following in `_layouts/post.html`
+```
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+```
+
+Let’s try a first example. Here’s a dummy equation:
+a2+b2=c2
+
+How do you write such expression? Very simple: using double dollar signs
+$$a^2 + b^2 = c^2$$
+
+To display inline math use `\\( ... \\)` like this `\\( sin(x^2) \\)` which gets rendered as \\( sin(x^2) \\)
+
+
+## For emojis:
+http://www.webpagefx.com/tools/emoji-cheat-sheet/
+

@@ -4,13 +4,13 @@
 
 .article {
   display: block;
-  margin: 100px 0;
+  margin: 50px 0;
 }
 
 .article-list {
   display: block;
   padding: 0;
-  margin: 50px 0;
+  margin: 0px 0;
   list-style: none;
   li {
     position: relative;
@@ -23,7 +23,7 @@
     &.article-pagination {
       display: block;
       height: 93px;
-      padding: 15px 0 50px;
+      padding: 15px 0 10px;
       a {
         display: inline-block;
         font-size: 11px;

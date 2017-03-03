@@ -3,7 +3,8 @@
 name: Nistara Randhawa
 paginate: 25
 paginate_path: "/posts/page/:num/"
-url: nistara.github.io/chalk # add site url http://example.com/
+url: nistara.github.io/ # add site url http://example.com/
+baseurl: /chalk
 blog_theme: light # Or use dark
 
 # Optional settings
